@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="restTest.deleteMethod"/>
+      <class name="restTest.postMethod"/>
+      <class name="restTest.patchMethod"/>
+      <class name="restTest.putMethod"/>
+      <class name="restTest.getMethod"/>
+      <class name="restTest.postScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
