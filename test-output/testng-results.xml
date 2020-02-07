@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2701" started-at="2020-01-13T13:49:48Z" finished-at="2020-01-13T13:49:50Z">
+  <suite name="Suite" duration-ms="11625" started-at="2020-02-07T09:50:28Z" finished-at="2020-02-07T09:50:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2701" started-at="2020-01-13T13:49:48Z" finished-at="2020-01-13T13:49:50Z">
-      <class name="postMethod">
-        <test-method status="PASS" signature="postMethodSample()[pri:0, instance:postMethod@d8355a8]" name="postMethodSample" duration-ms="2681" started-at="2020-01-13T13:49:48Z" finished-at="2020-01-13T13:49:50Z">
+    <test name="Test" duration-ms="11625" started-at="2020-02-07T09:50:28Z" finished-at="2020-02-07T09:50:40Z">
+      <class name="restTest.postMethod">
+        <test-method status="PASS" signature="postMethodSample()[pri:0, instance:restTest.postMethod@1b604f19]" name="postMethodSample" duration-ms="1467" started-at="2020-02-07T15:20:33Z" finished-at="2020-02-07T15:20:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethodSample -->
-      </class> <!-- postMethod -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- restTest.postMethod -->
+      <class name="restTest.patchMethod">
+        <test-method status="PASS" signature="patchScenario()[pri:0, instance:restTest.patchMethod@457e2f02]" name="patchScenario" duration-ms="827" started-at="2020-02-07T15:20:35Z" finished-at="2020-02-07T15:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchScenario -->
+      </class> <!-- restTest.patchMethod -->
+      <class name="restTest.putMethod">
+        <test-method status="PASS" signature="putScenario()[pri:0, instance:restTest.putMethod@1593948d]" name="putScenario" duration-ms="777" started-at="2020-02-07T15:20:35Z" finished-at="2020-02-07T15:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putScenario -->
+      </class> <!-- restTest.putMethod -->
+      <class name="restTest.deleteMethod">
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:restTest.deleteMethod@9629756]" name="deleteTest" duration-ms="4831" started-at="2020-02-07T15:20:28Z" finished-at="2020-02-07T15:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- restTest.deleteMethod -->
+      <class name="restTest.postScenario">
+        <test-method status="PASS" signature="postSuccess1()[pri:0, instance:restTest.postScenario@4cc0edeb]" name="postSuccess1" duration-ms="816" started-at="2020-02-07T15:20:37Z" finished-at="2020-02-07T15:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSuccess1 -->
+        <test-method status="PASS" signature="postFailure()[pri:0, instance:restTest.postScenario@4cc0edeb]" name="postFailure" duration-ms="759" started-at="2020-02-07T15:20:38Z" finished-at="2020-02-07T15:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postFailure -->
+        <test-method status="PASS" signature="postLoginPass()[pri:0, instance:restTest.postScenario@4cc0edeb]" name="postLoginPass" duration-ms="861" started-at="2020-02-07T15:20:38Z" finished-at="2020-02-07T15:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLoginPass -->
+        <test-method status="PASS" signature="postLoginFail()[pri:0, instance:restTest.postScenario@4cc0edeb]" name="postLoginFail" duration-ms="795" started-at="2020-02-07T15:20:39Z" finished-at="2020-02-07T15:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLoginFail -->
+      </class> <!-- restTest.postScenario -->
+      <class name="restTest.getMethod">
+        <test-method status="PASS" signature="GetBookingIds_VerifyStatusCode()[pri:0, instance:restTest.getMethod@482f8f11]" name="GetBookingIds_VerifyStatusCode" duration-ms="427" started-at="2020-02-07T15:20:36Z" finished-at="2020-02-07T15:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingIds_VerifyStatusCode -->
+      </class> <!-- restTest.getMethod -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
